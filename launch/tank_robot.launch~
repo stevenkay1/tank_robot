@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find tank_robot_keyboard)/launch/tank_robot_keyboard.launch"/>
+	<includee file="$(find tank_robot_llc_drive)/launch/tank_robot_llc_drive.launch"/>
+</launch>
